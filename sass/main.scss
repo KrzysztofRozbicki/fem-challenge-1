@@ -2,11 +2,17 @@
 @use '../sass/components' as *;
 
 .attribution {
-  font-size: 11px;
+  width: calc(100vw - 3rem);
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: max(10px, 1vh);
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $text-primary-700;
+  font-weight: 700;
 }
 
 .product-card {
@@ -19,9 +25,12 @@
 }
 
 .container {
+  margin-inline: auto;
   border-radius: 0.625rem;
+  height: calc(100vh - 3.5rem);
   overflow: hidden;
   max-width: 600px;
+  background-color: $bg-neutral-000;
   box-shadow: 0px 4px 4px $box-shadow-500;
 }
 
@@ -37,6 +46,24 @@
 }
 
 .icon {
+  position: relative;
+  transform: translateY(0.125rem);
   display: inline-block;
-  color: white;
+  fill: currentColor;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: auto;
+    box-shadow: none;
+  }
+  .button {
+    width: 14.75rem;
+  }
 }
