@@ -43,6 +43,12 @@
   color: $bg-neutral-000;
   font-weight: 700;
   line-height: 1.2;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $text-accent-700;
+    cursor: pointer;
+  }
 }
 
 .icon {

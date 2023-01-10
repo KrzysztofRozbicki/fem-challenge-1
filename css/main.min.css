@@ -102,6 +102,10 @@
   font-weight: 700;
   line-height: 1.2;
 }
+.button:hover, .button:focus, .button:active {
+  background-color: #1a4032;
+  cursor: pointer;
+}
 
 .icon {
   position: relative;
