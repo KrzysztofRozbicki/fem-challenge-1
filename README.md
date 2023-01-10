@@ -66,7 +66,7 @@ Improve planning the design and speed of simplicity solutions.
 
 ## Author
 
-- GitHub - [GitHub] (https://github.com/KrzysztofRozbicki)
+- GitHub - [GitHub](https://github.com/KrzysztofRozbicki)
 - Website - [Pogbit](https://www.pogbit.com/)
 - Frontend Mentor - [@KrzysztofRozbicki](https://www.frontendmentor.io/profile/KrzysztofRozbicki)
 
