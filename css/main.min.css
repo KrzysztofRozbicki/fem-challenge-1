@@ -2,7 +2,7 @@
   padding: 1.5rem;
   text-align: left;
   position: relative;
-  height: calc(100vh - 3rem - (100vw - 2rem) * 0.7);
+  height: 23.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,6 @@
 .container {
   margin-inline: auto;
   border-radius: 0.625rem;
-  height: calc(100vh - 3.5rem);
   overflow: hidden;
   max-width: 600px;
   background-color: hsl(0deg, 0%, 100%);
